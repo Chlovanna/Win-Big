@@ -1,0 +1,93 @@
+:root {
+  --primary: bisque;
+  --secondary: lightseagreen;
+  --tertiary: saddlebrown;
+  --dark1: darkgreen;
+  --dark2: darkgoldenrod;
+  --dark3: blue;
+  --light: beige;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: antiquewhite;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 0 0 1%;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+#intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+#intro {
+  margin: 0.5em;
+  /*flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;*/
+  padding: 0 0 20px 0;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 0.9rem;
+}
+
+#intro h1 {
+  background-color: var(--secondary);
+  font-size: 4rem;
+  text-align: center;
+  color: var(--primary);
+  padding: 1rem 0;
+  width: 100%;
+  margin-bottom: 2rem;
+  border-radius: 3px;
+  /*flex-basis: 100%;*/
+}
+
+div a {
+  margin: 1% 0 1% 0;
+}
+
+.btn {
+  text-align: left;
+  background-color: silver;
+  width: 100%;
+  font-size: 1.8rem;
+  color: var(--dark3);
+  border-radius: 5px;
+  margin: 7px 0;
+  padding: 1rem;
+  outline: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: var(--tertiary);
+  color: var(--primary);
+}
+
+.btn:active {
+  background-color: var(--primary);
+}
