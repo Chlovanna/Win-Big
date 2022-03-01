@@ -5,7 +5,7 @@ Description:
 **Participants are penalize for incorrect answers
 **At the end of the quiz the participant must enter their initials and save their score
 
-Website 
+Website https://github.com/Chlovanna/Win-Big
 
 
 ![image](https://user-images.githubusercontent.com/97860472/155904977-fdda8dff-8c6d-4f2a-9d0f-d55704e646fc.png)
