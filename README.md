@@ -5,7 +5,7 @@ Description:
 **Participants are penalize for incorrect answers
 **At the end of the quiz the participant must enter their initials and save their score
 
-Website ![image](https://user-images.githubusercontent.com/97860472/156080793-f68a3d96-323d-4806-9470-800172cf5384.png)
+Website 
 
 
 ![image](https://user-images.githubusercontent.com/97860472/155904977-fdda8dff-8c6d-4f2a-9d0f-d55704e646fc.png)
